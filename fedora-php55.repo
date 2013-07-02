@@ -1,0 +1,9 @@
+# Save this file in your /etc/yum.repos.d/ directory
+
+[php55]
+name=PHP 5.5 for Fedora
+baseurl=http://rpms.famillecollet.com/fedora/$releasever/test/$basearch/
+enabled=1
+gpgcheck=1
+gpgkey=http://rpms.famillecollet.com/RPM-GPG-KEY-remi
+skip_if_unavailable=1

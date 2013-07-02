@@ -1,0 +1,17 @@
+# Place this file in your /etc/yum.repos.d/ directory
+
+[fedora-yum-fast-downloader]
+name=A fast downloader plugin for yum
+baseurl=http://repos.fedorapeople.org/repos/hedayat/yum-fast-downloader/fedora-$releasever/noarch/
+enabled=1
+skip_if_unavailable=1
+gpgcheck=1
+gpgkey=http://hedayat.fedorapeople.org/gpg/hedayat-rpm-gpg-key
+
+[fedora-yum-fast-downloader-source]
+name=A fast downloader plugin for yum - Source
+baseurl=http://repos.fedorapeople.org/repos/hedayat/yum-fast-downloader/fedora-$releasever/SRPMS
+enabled=0
+skip_if_unavailable=1
+gpgcheck=1
+gpgkey=http://hedayat.fedorapeople.org/gpg/hedayat-rpm-gpg-key

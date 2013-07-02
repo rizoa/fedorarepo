@@ -1,0 +1,7 @@
+[home_satya164_fedorautils]
+name=Fedora Utils (Fedora_18)
+type=rpm-md
+baseurl=http://download.opensuse.org/repositories/home:/satya164:/fedorautils/Fedora_18/
+gpgcheck=1
+gpgkey=http://download.opensuse.org/repositories/home:/satya164:/fedorautils/Fedora_18/repodata/repomd.xml.key
+enabled=1

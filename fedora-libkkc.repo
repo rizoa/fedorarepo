@@ -1,0 +1,15 @@
+# Place this file in your /etc/yum.repos.d/ directory
+
+[fedora-libkkc]
+name=https://fedoraproject.org/wiki/Features/libkkc
+baseurl=http://repos.fedorapeople.org/repos/ueno/libkkc/fedora-$releasever/$basearch/
+enabled=1
+skip_if_unavailable=1
+gpgcheck=0
+
+[fedora-libkkc-source]
+name=https://fedoraproject.org/wiki/Features/libkkc - Source
+baseurl=http://repos.fedorapeople.org/repos/ueno/libkkc/fedora-$releasever/SRPMS
+enabled=0
+skip_if_unavailable=1
+gpgcheck=0
